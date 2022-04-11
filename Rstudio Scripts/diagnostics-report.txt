@@ -1,0 +1,1288 @@
+
+RStudio Diagnostics Report
+==========================
+
+WARNING: This report may contain sensitive security information and / or
+personally identifiable information. Please audit the below and redact any
+sensitive information before submitting your diagnostics report.
+
+Generated: Thu Feb 03 14:50:50 2022
+
+RStudio Version
+--------------------------------------------------
+2021.09.2+382
+
+
+Session Information
+--------------------------------------------------
+R version 3.6.3 (2020-02-29)
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+Running under: Windows 10 x64 (build 19044)
+
+Matrix products: default
+
+locale:
+[1] LC_COLLATE=Portuguese_Brazil.1252  LC_CTYPE=Portuguese_Brazil.1252   
+[3] LC_MONETARY=Portuguese_Brazil.1252 LC_NUMERIC=C                      
+[5] LC_TIME=Portuguese_Brazil.1252    
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+loaded via a namespace (and not attached):
+[1] compiler_3.6.3 tools_3.6.3   
+
+
+System Information
+--------------------------------------------------
+sysname        : Windows        
+release        : 10 x64         
+version        : build 19044    
+nodename       : DESKTOP-3738193
+machine        : x86-64         
+login          : rodie          
+user           : rodie          
+effective_user : rodie          
+
+
+Platform Information
+--------------------------------------------------
+OS.type    : windows
+file.sep   : /
+dynlib.ext : .dll
+GUI        : Rgui
+endian     : little
+pkgType    : win.binary
+path.sep   : ;
+r_arch     : x64
+
+
+Environment Variables
+--------------------------------------------------
+ALLUSERSPROFILE            : C:\ProgramData
+APPDATA                    : C:\Users\rodie\AppData\Roaming
+CLICOLOR_FORCE             : 1
+CommonProgramFiles         : C:\Program Files\Common Files
+CommonProgramFiles(x86)    : C:\Program Files (x86)\Common Files
+CommonProgramW6432         : C:\Program Files\Common Files
+COMPUTERNAME               : DESKTOP-3738193
+ComSpec                    : C:\WINDOWS\system32\cmd.exe
+DriverData                 : C:\Windows\System32\Drivers\DriverData
+GFORTRAN_STDERR_UNIT       : -1
+GFORTRAN_STDOUT_UNIT       : -1
+HOME                       : C:/Users/rodie/OneDrive/Documentos
+HOMEDRIVE                  : C:
+HOMEPATH                   : \Users\rodie
+LOCALAPPDATA               : C:\Users\rodie\AppData\Local
+LOGONSERVER                : \\DESKTOP-3738193
+MSYS2_ENV_CONV_EXCL        : R_ARCH
+NUMBER_OF_PROCESSORS       : 4
+OneDrive                   : C:\Users\rodie\OneDrive
+OneDriveConsumer           : C:\Users\rodie\OneDrive
+OS                         : Windows_NT
+PATH                       : D:\Program Files\R\rtools40\usr\bin;D:\Program Files\R\rtools40\usr\bin;D:\Program Files\R\R-3.6.3\bin\x64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Rtools\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;D:\Program Files\ggobi;C:\Users\rodie\AppData\Local\Microsoft\WindowsApps;
+PATHEXT                    : .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE     : AMD64
+PROCESSOR_IDENTIFIER       : Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL            : 6
+PROCESSOR_REVISION         : 8e09
+ProgramData                : C:\ProgramData
+ProgramFiles               : C:\Program Files
+ProgramFiles(x86)          : C:\Program Files (x86)
+ProgramW6432               : C:\Program Files
+PROMPT                     : $P$G
+PSModulePath               : C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC                     : C:\Users\Public
+PYTHONIOENCODING           : utf-8
+QT_D3DCREATE_MULTITHREADED : 1
+R_ARCH                     : /x64
+R_COMPILED_BY              : gcc 4.9.3
+R_DOC_DIR                  : D:/Program Files/R/R-3.6.3/doc
+R_HOME                     : D:/Program Files/R/R-3.6.3
+R_LIBS_USER                : C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6
+R_USER                     : C:/Users/rodie/OneDrive/Documentos
+RMARKDOWN_MATHJAX_PATH     : D:/Program Files/R/RStudio/resources/mathjax-27
+RS_LOCAL_PEER              : \\.\pipe\14340-rsession
+RS_RPOSTBACK_PATH          : D:/Program Files/R/RStudio/bin/rpostback
+RS_SHARED_SECRET           : *** redacted ***
+RSTUDIO                    : 1
+RSTUDIO_CONSOLE_COLOR      : 256
+RSTUDIO_CONSOLE_WIDTH      : 80
+RSTUDIO_MSYS_SSH           : D:/Program Files/R/RStudio/bin/msys-ssh-1000-18
+RSTUDIO_PANDOC             : D:/Program Files/R/RStudio/bin/pandoc
+RSTUDIO_PROGRAM_MODE       : desktop
+RSTUDIO_SESSION_PORT       : 14340
+RSTUDIO_USER_IDENTITY      : rodie
+RSTUDIO_WINUTILS           : D:/Program Files/R/RStudio/bin/winutils
+RTOOLS40_HOME              : D:\Program Files\R\rtools40
+SESSIONNAME                : Console
+SynaProgDir                : Synaptics\SynTP
+SystemDrive                : C:
+SystemRoot                 : C:\WINDOWS
+TEMP                       : C:\Users\rodie\AppData\Local\Temp
+TERM                       : xterm-256color
+TMP                        : C:\Users\rodie\AppData\Local\Temp
+USERDOMAIN                 : DESKTOP-3738193
+USERDOMAIN_ROAMINGPROFILE  : DESKTOP-3738193
+USERNAME                   : *** redacted ***
+USERPROFILE                : C:\Users\rodie
+windir                     : C:\WINDOWS
+
+
+R Version
+--------------------------------------------------
+platform       : x86_64-w64-mingw32
+arch           : x86_64
+os             : mingw32
+system         : x86_64, mingw32
+status         : 
+major          : 3
+minor          : 6.3
+year           : 2020
+month          : 02
+day            : 29
+svn rev        : 77875
+language       : R
+version.string : R version 3.6.3 (2020-02-29)
+nickname       : Holding the Windsock
+
+
+R Home
+--------------------------------------------------
+D:/Program Files/R/R-3.6.3
+
+
+R Search Path
+--------------------------------------------------
+.GlobalEnv       
+tools:rstudio    
+package:stats    
+package:graphics 
+package:grDevices
+package:utils    
+package:datasets 
+package:methods  
+Autoloads        
+package:base     
+
+
+R Library Paths
+--------------------------------------------------
+C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6
+D:/Program Files/R/R-3.6.3/library                  
+
+
+Loaded Packages
+--------------------------------------------------
+base      : D:/Program Files/R/R-3.6.3/library/base     
+compiler  : D:/Program Files/R/R-3.6.3/library/compiler 
+datasets  : D:/Program Files/R/R-3.6.3/library/datasets 
+graphics  : D:/Program Files/R/R-3.6.3/library/graphics 
+grDevices : D:/Program Files/R/R-3.6.3/library/grDevices
+methods   : D:/Program Files/R/R-3.6.3/library/methods  
+stats     : D:/Program Files/R/R-3.6.3/library/stats    
+tools     : D:/Program Files/R/R-3.6.3/library/tools    
+utils     : D:/Program Files/R/R-3.6.3/library/utils    
+
+
+Installed Packages
+--------------------------------------------------
+                  Package                                              LibPath     Version
+1                   abind C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.4-5
+2                 acepack C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.4.1
+3                     ada C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.0-5
+4         additivityTests C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1-4
+5                    ade4 C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.7-16
+6               ADGofTest C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         0.3
+7                    ADPF C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.0.1
+8                     AER C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.2-9
+9                 alabama C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6    2015.3-1
+10          alphavantager C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.2
+11                   amap C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.8-18
+12                 Amelia C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.7.6
+13              analytics C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         3.0
+14                anytime C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.3.9
+15                    ape C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         5.5
+16                 arules C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.6-4
+17              arulesViz C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.3-3
+18                askpass C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         1.1
+19             assertthat C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.2.1
+20              backports C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.2.1
+21            bartMachine C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.2.6
+22        bartMachineJARs C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         1.1
+23              base64enc C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1-3
+24                basefun C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1-0
+25                 bastah C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.7
+26            BayesFactor C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6  0.9.12-4.2
+27                     BB C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6   2019.10-1
+28                 BBmisc C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6        1.11
+29                BDgraph C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6        2.64
+30                  bdpar C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       3.0.1
+31                   BGLR C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.8
+32                     BH C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6    1.78.0-0
+33                 bibtex C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     0.4.2.3
+34                biclust C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.0.2
+35             bigassertr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.5
+36            bigdatadist C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         1.1
+37               biglasso C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.3-7
+38              bigmemory C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      4.5.36
+39          bigmemory.sri C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.3
+40                BigQuic C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     1.1-9.1
+41              bigutilsr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.3.4
+42                    bit C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       4.0.4
+43                  bit64 C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       4.0.5
+44                 bitops C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0-7
+45                 blkbox C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         1.0
+46                   blob C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.2.2
+47                    BLR C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         1.6
+48                bnlearn C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       4.6.1
+49          BradleyTerry2 C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1-2
+50                   brew C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0-6
+51                  brglm C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.7.2
+52                   brio C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1.2
+53                  broom C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.7.12
+54          broom.helpers C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.6.0
+55            broom.mixed C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.2.7
+56                   C443 C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       3.2.2
+57                    C50 C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     0.1.3.1
+58                     ca C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.71.1
+59                 cachem C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.4
+60            cairoDevice C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6        2.28
+61              calibrate C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.7.7
+62                  callr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       3.7.0
+63                    car C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      3.0-12
+64                carData C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       3.0-5
+65                caTools C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.18.2
+66                    cba C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.2-21
+67             cdparcoord C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.1
+68             cellranger C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1.0
+69                censCov C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0-0
+70                  CHAID C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1-2
+71            changepoint C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.2.2
+72              checkmate C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.0.0
+73           chemometrics C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.4.2
+74               circlize C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.4.13
+75              CircStats C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.2-6
+76               circular C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.4-93
+77                  class C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      7.3-19
+78               classInt C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.4-3
+79                    cli C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.5.0
+80                  clipr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.7.1
+81             clisymbols C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.2.0
+82                   clue C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.3-59
+83                cluster C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.1.2
+84               ClusterR C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.2.4
+85            ClustImpute C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.3
+86                    clv C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     0.3-2.2
+87                   coda C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.19-4
+88                   coin C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.4-1
+89             colorspace C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.0-1
+90               combinat C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.0-8
+91             commonmark C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         1.7
+92            complexplus C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         2.1
+93             conditionz C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.0
+94               coneproj C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6        1.14
+95                 config C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.3.1
+96                conquer C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.2
+97               contfrac C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.1-12
+98                 copula C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0-1
+99              CORElearn C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.56.0
+100                cornet C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.0.5
+101               corpcor C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.6.10
+102              corrplot C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6        0.92
+103                 corrr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.4.3
+104                  covr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       3.5.1
+105               cowplot C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1.1
+106                   cpm C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         2.3
+107                 cpp11 C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.4.2
+108                crayon C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.4.2
+109           credentials C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.3.2
+110             crosstalk C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.2.0
+111               crsmeta C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.3.0
+112                   csv C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.6.1
+113               csvread C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.2.1
+114              cubature C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     2.0.4.1
+115                Cubist C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.2.40
+116                  curl C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       4.3.1
+117                 curry C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.1
+118          cusumcharter C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.0
+119                 cvAUC C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1.4
+120                  CVST C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.2-2
+121             cyclocomp C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1.0
+122             d3Network C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     0.5.2.1
+123            data.table C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.14.0
+124             data.tree C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.0
+125          DataExplorer C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.8.2
+126             datautils C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.5
+127                   DBI C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1.2
+128                dbplyr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.1.1
+129                dbscan C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1-8
+130               ddalpha C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.3.11
+131             DDoutlier C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.0
+132               debugme C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1.0
+133                deldir C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.2-10
+134            dendextend C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.15.2
+135              DEoptimR C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.0-10
+136                 depth C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     2.1-1.1
+137            depthTools C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         0.7
+138                 Deriv C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       4.1.3
+139                  desc C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.4.0
+140                 descr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1.5
+141               deSolve C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6        1.28
+142              devtools C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.2.1
+143            DiceDesign C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         1.9
+144           DiceKriging C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.6.0
+145             dichromat C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.0-0
+146               diffobj C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.3.4
+147                digest C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.6.27
+148                dimRed C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.2.4
+149               diptest C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.76-0
+150                  doBy C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      4.6.11
+151            doParallel C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.0.16
+152                 doRNG C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.8.2
+153             dotCall64 C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0-1
+154               downlit C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.4.0
+155            downloader C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         0.4
+156                 dplyr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.6
+157                   DRR C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.0.4
+158                    DT C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6        0.20
+159                dtplyr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.2.1
+160                 dtree C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.4.2
+161                   dtw C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.22-3
+162               dummies C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.5.6
+163        dynamicTreeCut C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.63-1
+164                 dynlm C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.3-6
+165                 e1071 C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.7-6
+166                 earth C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       5.3.0
+167              EBglmnet C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         4.1
+168               effects C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       4.1-4
+169                   egg C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.4.5
+170            elasticnet C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         1.3
+171         ElemStatLearn C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6 2015.6.26.2
+172               ellipse C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.4.2
+173              ellipsis C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.3.2
+174              elliptic C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.4-0
+175             elmNNRcpp C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.3
+176               emmeans C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.7.2
+177               entropy C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.3.1
+178            epiDisplay C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     3.5.0.1
+179                equate C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.0.7
+180          estimability C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         1.3
+181              evaluate C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6        0.14
+182                evtree C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0-8
+183        exactRankTests C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.8-32
+184                 exams C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.3-6
+185                  expm C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     0.999-6
+186              exreport C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.4.1
+187            extraDistr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.9.1
+188             extrafont C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6        0.17
+189           extrafontdb C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         1.0
+190            factoextra C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.7
+191            FactoMineR C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         2.4
+192                 fansi C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.4.2
+193                farver C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.1.0
+194               fastmap C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1.0
+195             fastmatch C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1-0
+196        fastNaiveBayes C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.2.1
+197               fBasics C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6   3042.89.1
+198               fdrtool C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.2.16
+199               feather C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.3.5
+200               FFTrees C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.4.0
+201                fields C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6        11.6
+202            fit.models C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6        0.64
+203            flashClust C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.01-2
+204             flexclust C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.4-0
+205               flexmix C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      2.3-17
+206                 flock C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         0.7
+207                 fmcmc C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.5-1
+208                  fmsb C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.7.2
+209                   FNN C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1.3
+210           fontawesome C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.2.2
+211               forcats C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.5.1
+212               foreach C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.5.2
+213              forecast C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6        8.14
+214  ForecastCombinations C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         1.1
+215            forecastML C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.9.0
+216               foreign C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.8-74
+217                 forge C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.2.0
+218               formatR C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6        1.11
+219           formattable C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.2.1
+220               Formula C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.2-4
+221                   fpc C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.2-9
+222              fracdiff C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.5-1
+223               fractal C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.0-4
+224          freqparcoord C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.1
+225                    fs C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.5.0
+226           funModeling C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.9.4
+227                 furrr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.2.3
+228         futile.logger C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.4.3
+229        futile.options C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.1
+230                future C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.23.0
+231          future.apply C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.8.1
+232                   gam C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.16.1
+233                gargle C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.2.0
+234                   gbm C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.1.8
+235                 gclus C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.3.2
+236                 gdata C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      2.18.0
+237              generics C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.2
+238              geometry C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.4.5
+239                  gert C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.3.0
+240               getPass C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.2-2
+241                GGally C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.1.2
+242            ggcorrplot C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.3
+243              ggdendro C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.1.22
+244               ggforce C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.3.3
+245             ggformula C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.10.1
+246                   ggm C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         2.5
+247              ggmosaic C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.3.3
+248               ggplot2 C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       3.3.5
+249         ggplot2movies C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.0.1
+250                ggpubr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.4.0
+251              ggQQunif C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.5
+252       ggRandomForests C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.0.1
+253                ggraph C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.0.5
+254               ggraptR C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         1.3
+255               ggrepel C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.9.1
+256              ggridges C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.5.3
+257                 ggsci C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         2.9
+258              ggsignif C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.6.3
+259              ggstance C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.3.5
+260                ggtext C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.1
+261              ggthemes C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       4.2.4
+262                    gh C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.3.0
+263                 git2r C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.28.0
+264              gitcreds C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.1
+265                glasso C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6        1.11
+266                glmnet C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       4.1-1
+267         GlobalOptions C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.2
+268               globals C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.14.0
+269                  glue C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.4.2
+270               Gmedian C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.2.6
+271               gmodels C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      2.18.1
+272                   gmp C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.6-2
+273               goftest C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.2-2
+274           googledrive C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.0.0
+275         googlesheets4 C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.0
+276                 gower C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.2.2
+277           GPArotation C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6   2014.11-1
+278                 GPfit C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0-8
+279                gplots C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       3.1.1
+280          graphlayouts C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.7.1
+281                   grf C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.2.0
+282              gridBase C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.4-7
+283             gridExtra C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         2.3
+284          gridGraphics C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.5-1
+285              gridtext C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.4
+286                   gsl C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.1-6
+287                   gss C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.2-2
+288                gtable C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.3.0
+289                gtools C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       3.8.2
+290              gWidgets C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6    0.0-54.1
+291         gWidgetsRGtk2 C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.0-86
+292                   h2o C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6    3.36.0.2
+293                hamlet C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.9.6
+294               hardhat C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.2.0
+295                 haven C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.4.1
+296          healthcareai C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.5.0
+297             heatmaply C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.3.0
+298                  here C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.1
+299                hexbin C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.28.2
+300      hierarchicalSets C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.2
+301                 highr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         0.9
+302              hmeasure C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0-2
+303                 Hmisc C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       4.5-0
+304                   hms C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1.1
+305             htmlTable C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.4.0
+306             htmltools C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     0.5.1.1
+307           htmlwidgets C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.5.4
+308              httpcode C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.3.0
+309                httpuv C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.6.1
+310                  httr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.4.2
+311                  huge C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     1.3.4.1
+312              hypergeo C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.2-13
+313               icenReg C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      2.0.15
+314                   ids C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.1
+315             ifultools C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      2.0-22
+316                igraph C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.2.6
+317             imbalance C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     1.0.2.1
+318            influenceR C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.0
+319      InformationValue C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.2.3
+320                   ini C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.3.1
+321                inline C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.3.19
+322               insight C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.15.0
+323              installr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.23.2
+324                  inum C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0-4
+325                 ipred C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.9-11
+326             IRdisplay C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         1.1
+327                  ISLR C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         1.4
+328               isoband C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.2.4
+329                  ISwR C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.0-8
+330             iterators C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.0.13
+331             itertools C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1-3
+332               janitor C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.1.0
+333                JavaGD C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.6-4
+334                  jomo C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.7-2
+335                  jpeg C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     0.1-8.1
+336             jquerylib C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.4
+337              jsonlite C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.7.2
+338            kableExtra C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.3.4
+339           KCSKNNShiny C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.0
+340            KCSNBShiny C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.0
+341                 keras C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.7.0
+342             KernelKnn C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1.2
+343               kernlab C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.9-29
+344                  KFAS C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.4.5
+345                  kknn C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.3.1
+346                  klaR C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.6-15
+347                 km.ci C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.5-2
+348                 kmodR C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.0
+349                KMsurv C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1-5
+350             knitLatex C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.9.0
+351                 knitr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6        1.27
+352        knitrBootstrap C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.2
+353      knitrProgressBar C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1.0
+354         knn.covertree C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         1.0
+355                knncat C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.2.2
+356                  knnp C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.0.0
+357               kohonen C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      3.0.10
+358               KoulMde C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       3.2.1
+359              labeling C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.4.2
+360              labelled C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.9.0
+361           labelVector C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.2
+362                laeken C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.5.2
+363                Lahman C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       9.0-0
+364              lambda.r C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.2.4
+365                  lars C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         1.2
+366                lasso2 C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.2-20
+367                 later C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.2.0
+368             latex2exp C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.9.0
+369              latexpdf C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.7
+370               lattice C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     0.20-44
+371          latticeExtra C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.6-29
+372                  lava C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.6.10
+373                lavaan C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.6-10
+374              lazyeval C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.2.2
+375             lazyWeave C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       3.0.2
+376                 ldbod C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.2
+377               leaflet C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     2.0.4.1
+378     leaflet.providers C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.9.0
+379              leafsync C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.0
+380                 leaps C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         3.1
+381                   lgr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.4.3
+382                   lhs C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1.1
+383               libcoin C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0-8
+384             lifecycle C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.1
+385                  lime C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.5.2
+386                lindia C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         0.9
+387               linprog C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.9-2
+388                 lintr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.0.1
+389               listenv C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.8.0
+390                  lme4 C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.1-26
+391                lmtest C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.9-38
+392                locfit C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     1.5-9.4
+393                   loo C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.4.1
+394                   lpc C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     1.0.2.1
+395               lpSolve C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      5.6.15
+396             LTRCtrees C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1.1
+397             lubridate C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.7.10
+398                 magic C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.5-9
+399              magrittr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.0.1
+400      manipulateWidget C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.10.0
+401                  maps C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       3.3.0
+402              maptools C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1-1
+403               maptree C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.4-7
+404              markdown C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         1.1
+405                 MARSS C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      3.11.4
+406                  MASS C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      7.3-54
+407              mathjaxr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.4-0
+408          MatrixModels C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.5-0
+409           matrixStats C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.58.0
+410               MAVTgsa C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         1.3
+411                maxLik C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.5-2
+412               maxstat C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.7-25
+413                mclust C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       5.4.7
+414                   mda C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.5-2
+415              measures C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         0.3
+416               memoise C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.0.1
+417                memuse C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       4.1-0
+418               metafor C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       3.0-2
+419               Metrics C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.4
+420       MetricsWeighted C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.5.4
+421                  mice C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      3.13.0
+422        microbenchmark C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.4-7
+423                  mime C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6        0.10
+424                miniUI C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     0.1.1.1
+425                 minqa C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.2.4
+426                misc3d C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.9-1
+427             miscTools C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.6-26
+428            missForest C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         1.4
+429                 mitml C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.3-7
+430               mitools C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         2.4
+431                 mlapi C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.0
+432               mlbench C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.1-3
+433               MLEcens C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1-4
+434                   mlf C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.2.1
+435             MLmetrics C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1.1
+436                   mlr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      2.19.0
+437                  mlr3 C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.6
+438          mlr3measures C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.4.1
+439              mlr3misc C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.9.1
+440                   mlt C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1-1
+441               mltools C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.3.5
+442             mmapcharr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.3.0
+443                mnormt C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.0.2
+444             modeldata C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.1
+445          ModelMetrics C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     1.2.2.2
+446                modelr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.8
+447            modeltools C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.2-23
+448               moments C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6        0.14
+449                mosaic C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.8.3
+450            mosaicCore C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.9.0
+451            mosaicData C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.20.2
+452                 movMF C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.2-5
+453           mstknnclust C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.3.1
+454              multcomp C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.4-18
+455               munsell C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.5.0
+456               mvtnorm C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1-1
+457                 nabor C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.5.0
+458            naivebayes C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.9.7
+459                ncvreg C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      3.13.0
+460             networkD3 C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         0.4
+461                NHANES C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.1.0
+462                nloptr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     1.2.2.2
+463                   NLP C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.2-1
+464                  nnls C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         1.4
+465               nortest C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0-4
+466                    np C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     0.60-10
+467              numDeriv C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6  2016.8-1.1
+468          nycflights13 C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.2
+469                 olsrr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.5.3
+470             oompaBase C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       3.2.9
+471             oompaData C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       3.1.1
+472               openssl C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.4.4
+473              openxlsx C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       4.2.3
+474               ordinal C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6  2019.12-10
+475          orthopolynom C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0-5
+476      OutlierDetection C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.1
+477           outliertree C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.7.1
+478               packrat C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.7.0
+479                pacman C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.5.1
+480                  padr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.5.3
+481               palasso C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.0.8
+482        palmerpenguins C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.0
+483                  pamr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.56.1
+484                   pan C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         1.6
+485                pander C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.6.3
+486               paradox C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.7.1
+487          parallelDist C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.2.4
+488            parallelly C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.30.0
+489           parallelMap C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.5.1
+490          ParamHelpers C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6        1.14
+491               parsnip C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.7
+492              partools C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1.6
+493                 party C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.3-7
+494              partykit C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.2-13
+495                 PASWR C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         1.1
+496             patchPlot C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.5
+497             patchwork C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1.1
+498               pbapply C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.5-0
+499              pbivnorm C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.6.0
+500              pbkrtest C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.5.1
+501               PCA4you C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.2.4
+502               pcadapt C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       4.3.3
+503                 pcaPP C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.9-74
+504           PCDimension C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.1.11
+505                 pdist C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         1.2
+506                   pdp C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.7.0
+507  PerformanceAnalytics C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.0.4
+508 performanceEstimation C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1.0
+509                  perm C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     1.0-0.2
+510               permute C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.9-7
+511             phonTools C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     0.2-2.1
+512                pillar C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.7.0
+513              pinfsc50 C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.2.0
+514             pipeliner C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.1
+515                 pipeR C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     0.6.1.3
+516                pixmap C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.4-12
+517              pkgbuild C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.3.1
+518             pkgconfig C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.0.3
+519             pkgKitten C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.2.2
+520               pkgload C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.2.4
+521                 plogr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.2.0
+522                plot3D C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         1.4
+523                plotly C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      4.10.0
+524       plotlyGeoAssets C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.0.2
+525                plotmo C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       3.6.1
+526               plotrix C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       3.8-2
+527             PLRModels C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         1.1
+528                   pls C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.8-0
+529                  plyr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.8.6
+530                  pmml C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.5.1
+531                   png C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1-7
+532             polspline C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.1.19
+533            Polychrome C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.3.1
+534              polyclip C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.10-0
+535               polynom C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.4-0
+536             powerplus C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         3.1
+537              prabclus C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.3-2
+538                pracma C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.3.6
+539                praise C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.0
+540             prettydoc C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.4.1
+541           prettyunits C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1.1
+542                  prim C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.0.20
+543              probably C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.0.6
+544                  pROC C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6    1.17.0.1
+545              processx C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       3.5.2
+546               prodlim C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6  2019.11.13
+547          productplots C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.1
+548          profileModel C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.6.1
+549               profmem C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.6.0
+550              progress C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.2.2
+551             progressr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.10.0
+552              promises C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     1.2.0.1
+553                 proxy C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.4-25
+554                 PRROC C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.3.1
+555                    ps C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.6.0
+556                  pscl C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.5.5
+557               pspline C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.0-18
+558                 psych C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.1.9
+559                 purrr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.3.4
+560               pvclust C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.2-0
+561                   qap C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1-1
+562                qgraph C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.6.9
+563              quadprog C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.5-8
+564                Quandl C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      2.11.0
+565              quantmod C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.4.18
+566              quantreg C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6        5.85
+567        quantregForest C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.3-7
+568                qvcalc C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.2
+569               R.cache C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.15.0
+570           R.methodsS3 C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.8.1
+571                  R.oo C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.24.0
+572               R.utils C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      2.11.0
+573                  r2d3 C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.2.5
+574                    R6 C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.5.1
+575          randomForest C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      4.6-14
+576       randomForestSRC C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      2.11.0
+577                ranger C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.12.1
+578                  RANN C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.6.1
+579            rapidjsonr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.2.0
+580              rappdirs C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.3.3
+581                raster C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      3.4-10
+582            ratelimitr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.4.1
+583                rattle C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       5.4.0
+584           rattle.data C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.2
+585            rbenchmark C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.0
+586               Rcereal C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     1.2.1.1
+587             rcmdcheck C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.3.3
+588          RColorBrewer C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1-2
+589                  Rcpp C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.6
+590         RcppArmadillo C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6  0.10.4.0.0
+591              RcppDate C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.0.3
+592             RcppEigen C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6   0.3.3.9.1
+593          RcppParallel C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       5.1.4
+594          RcppProgress C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.4.2
+595              RcppRoll C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.3.0
+596              RcppTOML C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.7
+597                 RCurl C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6    1.98-1.3
+598            readMLData C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.9-7
+599                 readr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.4.0
+600                readxl C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.3.1
+601            RefManageR C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.3.0
+602              registry C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.5-1
+603              regtools C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1.0
+604               rematch C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.1
+605              rematch2 C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.1.2
+606               remotes C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.4.2
+607               rentrez C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.2.3
+608         RepoGenerator C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.0.1
+609               reports C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.4
+610                  repr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1.4
+611                reprex C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.0.1
+612           repurrrsive C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.0
+613               reshape C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.8.8
+614              reshape2 C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.4.4
+615               resumer C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.0.5
+616            reticulate C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6        1.20
+617                   rex C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.2.1
+618                rggobi C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      2.1.22
+619                   rgl C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     0.106.8
+620                 RGtk2 C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     2.20.36
+621         rhandsontable C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.3.8
+622           RhpcBLASctl C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6    0.20-137
+623                riingo C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.3.1
+624                   rio C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.5.16
+625                 rJava C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0-4
+626                 rjson C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.2.20
+627                  rknn C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.2-1
+628                 rlang C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.4.11
+629                 rlist C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     0.4.6.2
+630                   RLT C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       3.2.2
+631             rmarkdown C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6        2.11
+632                  rmio C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.3.0
+633                 Rmisc C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         1.5
+634                   rms C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       6.2-0
+635              rngtools C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.5.2
+636                robust C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     0.5-0.0
+637            robustbase C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.93-6
+638                  ROCR C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.0-11
+639                 RODBC C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.3-16
+640                  ROSE C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.0-4
+641              roxygen2 C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       7.1.1
+642                 rpart C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      4.1-15
+643            rpart.plot C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       3.1.0
+644           rpivotTable C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.3.0
+645             rprojroot C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.0.2
+646                 rrcov C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.5-5
+647               rsample C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.1
+648              RSpectra C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.16-0
+649            rstantools C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.1.1
+650               rstatix C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.7.0
+651            rstudioapi C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6        0.13
+652                 Rtsne C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6        0.15
+653              Rttf2pt1 C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.3.9
+654             rversions C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.1.1
+655                 rvest C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.2
+656                 RWeka C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.4-44
+657             RWekajars C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     3.9.3-2
+658              RXshrink C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         2.0
+659                    s2 C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.4
+660       SamplingBigData C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.0
+661              sandwich C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       3.0-1
+662                  sapa C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.0-3
+663                  sass C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.4.0
+664           scagnostics C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     0.2-4.1
+665                scales C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1.1
+666               scalreg C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.1
+667         scatterplot3d C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.3-41
+668               selectr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.4-2
+669             seriation C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.2-9
+670           sessioninfo C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1.1
+671                    sf C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.9-8
+672               sfsmisc C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.1-12
+673                 shape C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.4.6
+674             showimage C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.0
+675               skmeans C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.2-14
+676                  slam C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.1-48
+677                slider C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.2.1
+678           SMLoutliers C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         0.1
+679           smotefamily C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.3.1
+680                    sn C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.0.1
+681             snakecase C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.11.0
+682             SnowballC C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.7.0
+683                   som C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     0.3-5.1
+684           sourcetools C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.7
+685                    sp C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.4-5
+686                  spam C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.6-0
+687             sparkline C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         2.0
+688               SparseM C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6        1.81
+689              spatstat C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.1-0
+690         spatstat.core C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.1-2
+691         spatstat.data C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.1-2
+692         spatstat.geom C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.1-0
+693       spatstat.linnet C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.1-1
+694       spatstat.sparse C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.0-0
+695        spatstat.utils C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.1-0
+696            splinetree C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.2.0
+697                  spls C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.2-3
+698               splus2R C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.3-3
+699               SQUAREM C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      2021.1
+700            stabledist C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.7-1
+701             stargazer C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       5.2.2
+702                states C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.3.1
+703               stats19 C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.0.0
+704               stlplus C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.5.1
+705               stringi C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.6.1
+706               stringr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.4.0
+707           strucchange C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.5-2
+708                styler C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.6.2
+709             subselect C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.15.2
+710          SuperLearner C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      2.0-28
+711               superpc C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6        1.12
+712                survey C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       4.1-1
+713              survival C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      3.2-11
+714             survminer C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.4.9
+715              survMisc C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.5.5
+716               survRM2 C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0-3
+717               svglite C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.0.0
+718                svMisc C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.2.3
+719              svydiags C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         0.3
+720                   sys C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         3.4
+721           systemfonts C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.2
+722         TeachingDemos C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6        2.12
+723                tensor C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         1.5
+724            tensorflow C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.7.0
+725                 terra C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.2-5
+726                testit C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6        0.13
+727              testthat C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       3.0.2
+728             textTinyR C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1.4
+729           tfautograph C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.3.2
+730                tfruns C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.5.0
+731               TH.data C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1-0
+732              Thresher C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1.3
+733                tibble C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       3.1.1
+734             tidygraph C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.2.0
+735             tidyquant C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.3
+736                 tidyr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1.3
+737            tidyselect C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1.1
+738             tidyverse C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.3.1
+739              timeDate C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6    3043.102
+740            timeSeries C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6    3062.100
+741                timetk C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.2
+742              tinytest C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.3.1
+743               tinytex C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6        0.19
+744               titanic C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.0
+745                    tm C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.7-8
+746               tmvnsim C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0-2
+747             toOrdinal C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     1.1-0.0
+748             treeClust C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1-7
+749                 trend C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1.4
+750                  trtf C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.3-6
+751             truncnorm C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0-8
+752                   TSA C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         1.3
+753               tseries C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     0.10-48
+754            tsfeatures C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.2
+755                tsfknn C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.5.0
+756                   TSP C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.1-10
+757                   TTR C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.24.2
+758                tweenr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.2
+759                  tzdb C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.1
+760                ucminf C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1-4
+761                  umap C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     0.2.7.0
+762            unbalanced C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         2.0
+763                 units C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.7-1
+764                  urca C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.3-0
+765                useful C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.2.6
+766               usethis C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.1.5
+767                  utf8 C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.2.1
+768                  uuid C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1-4
+769             variables C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.1-1
+770                varImp C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         0.4
+771                   vcd C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.4-9
+772                  vcfR C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.12.0
+773                 vctrs C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.3.8
+774                 vegan C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.5-7
+775           VennDiagram C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.7.1
+776          verification C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6        1.42
+777                   VIM C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       5.1.1
+778               viridis C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.6.2
+779           viridisLite C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.4.0
+780            visNetwork C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.1.0
+781                 vroom C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.4.0
+782                 waldo C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.3.1
+783                  warp C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.2.0
+784             webdriver C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.6
+785               webshot C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.5.2
+786               whisker C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6         0.4
+787           widgetframe C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.3.1
+788 WikidataQueryServiceR C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.0
+789             WikidataR C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.3.3
+790             WikipediR C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.5.0
+791                 withr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.4.3
+792                    wk C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.4.1
+793                 wmtsa C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.0-3
+794             workflowr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.6.0
+795             workflows C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.2.4
+796                  wskm C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.4.40
+797                  xfun C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6        0.22
+798               xgboost C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6     1.4.1.1
+799                  xlsx C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.6.5
+800              xlsxjars C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.6.1
+801                   XML C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6    3.99-0.3
+802                  xml2 C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.3.2
+803          xmlparsedata C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.5
+804                 xopen C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.0.0
+805                xtable C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.8-4
+806                   xts C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      0.12.1
+807              yaImpute C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6      1.0-32
+808                  yaml C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.2.1
+809             yardstick C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.0.8
+810                 yarrr C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.5
+811               zeallot C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       0.1.0
+812                   zip C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       2.1.1
+813                   zoo C:/Users/rodie/OneDrive/Documentos/R/win-library/3.6       1.8-9
+814                  base                   D:/Program Files/R/R-3.6.3/library       3.6.3
+815                  boot                   D:/Program Files/R/R-3.6.3/library      1.3-24
+816                 class                   D:/Program Files/R/R-3.6.3/library      7.3-15
+817               cluster                   D:/Program Files/R/R-3.6.3/library       2.1.0
+818             codetools                   D:/Program Files/R/R-3.6.3/library      0.2-16
+819              compiler                   D:/Program Files/R/R-3.6.3/library       3.6.3
+820              datasets                   D:/Program Files/R/R-3.6.3/library       3.6.3
+821               foreign                   D:/Program Files/R/R-3.6.3/library      0.8-75
+822              graphics                   D:/Program Files/R/R-3.6.3/library       3.6.3
+823             grDevices                   D:/Program Files/R/R-3.6.3/library       3.6.3
+824                  grid                   D:/Program Files/R/R-3.6.3/library       3.6.3
+825            KernSmooth                   D:/Program Files/R/R-3.6.3/library     2.23-16
+826               lattice                   D:/Program Files/R/R-3.6.3/library     0.20-38
+827                  MASS                   D:/Program Files/R/R-3.6.3/library    7.3-51.5
+828                Matrix                   D:/Program Files/R/R-3.6.3/library      1.2-18
+829               methods                   D:/Program Files/R/R-3.6.3/library       3.6.3
+830                  mgcv                   D:/Program Files/R/R-3.6.3/library      1.8-31
+831                  nlme                   D:/Program Files/R/R-3.6.3/library     3.1-144
+832                  nnet                   D:/Program Files/R/R-3.6.3/library      7.3-12
+833              parallel                   D:/Program Files/R/R-3.6.3/library       3.6.3
+834                 rpart                   D:/Program Files/R/R-3.6.3/library      4.1-15
+835               spatial                   D:/Program Files/R/R-3.6.3/library      7.3-11
+836               splines                   D:/Program Files/R/R-3.6.3/library       3.6.3
+837                 stats                   D:/Program Files/R/R-3.6.3/library       3.6.3
+838                stats4                   D:/Program Files/R/R-3.6.3/library       3.6.3
+839              survival                   D:/Program Files/R/R-3.6.3/library       3.1-8
+840                 tcltk                   D:/Program Files/R/R-3.6.3/library       3.6.3
+841                 tools                   D:/Program Files/R/R-3.6.3/library       3.6.3
+842          translations                   D:/Program Files/R/R-3.6.3/library       3.6.3
+843                 utils                   D:/Program Files/R/R-3.6.3/library       3.6.3
+
+
+R System Profile: D:/Program Files/R/R-3.6.3/library/base/R/Rprofile
+--------------------------------------------------
+### This is the system Rprofile file. It is always run on startup.
+### Additional commands can be placed in site or user Rprofile files
+### (see ?Rprofile).
+
+### Copyright (C) 1995-2015 The R Core Team
+
+### Notice that it is a bad idea to use this file as a template for
+### personal startup files, since things will be executed twice and in
+### the wrong environment (user profiles are run in .GlobalEnv).
+
+.GlobalEnv <- globalenv()
+attach(NULL, name = "Autoloads")
+.AutoloadEnv <- as.environment(2)
+assign(".Autoloaded", NULL, envir = .AutoloadEnv)
+T <- TRUE
+F <- FALSE
+R.version <- structure(R.Version(), class = "simple.list")
+version <- R.version            # for S compatibility
+
+## for backwards compatibility only
+R.version.string <- R.version$version.string
+
+## NOTA BENE: options() for non-base package functionality are in places like
+##            --------- ../utils/R/zzz.R
+
+options(keep.source = interactive())
+options(warn = 0)
+# options(repos = c(CRAN="@CRAN@"))
+# options(BIOC = "http://www.bioconductor.org")
+
+options(timeout = 60)
+options(encoding = "native.enc")
+options(show.error.messages = TRUE)
+## keep in sync with PrintDefaults() in  ../../main/print.c :
+options(scipen = 0)
+options(max.print = 99999)# max. #{entries} in internal printMatrix()
+options(add.smooth = TRUE)# currently only used in 'plot.lm'
+options(stringsAsFactors = TRUE)
+if(!interactive() && is.null(getOption("showErrorCalls")))
+    options(showErrorCalls = TRUE)
+
+local({dp <- Sys.getenv("R_DEFAULT_PACKAGES")
+       if(identical(dp, "")) ## it fact methods is done first
+           dp <- c("datasets", "utils", "grDevices", "graphics",
+                   "stats", "methods")
+       else if(identical(dp, "NULL")) dp <- character(0)
+       else dp <- strsplit(dp, ",")[[1]]
+       dp <- sub("[[:blank:]]*([[:alnum:]]+)", "\\1", dp) # strip whitespace
+       options(defaultPackages = dp)
+    })
+
+## Expand R_LIBS_* environment variables.
+Sys.setenv(R_LIBS_SITE =
+           .expand_R_libs_env_var(Sys.getenv("R_LIBS_SITE")))
+Sys.setenv(R_LIBS_USER =
+           .expand_R_libs_env_var(Sys.getenv("R_LIBS_USER")))
+
+local({
+    if(nzchar(tl <- Sys.getenv("R_SESSION_TIME_LIMIT_CPU")))
+        setSessionTimeLimit(cpu = tl)
+    if(nzchar(tl <- Sys.getenv("R_SESSION_TIME_LIMIT_ELAPSED")))
+        setSessionTimeLimit(elapsed = tl)
+})
+
+.First.sys <- function()
+{
+    for(pkg in getOption("defaultPackages")) {
+        res <- require(pkg, quietly = TRUE, warn.conflicts = FALSE,
+                       character.only = TRUE)
+        if(!res)
+            warning(gettextf('package %s in options("defaultPackages") was not found', sQuote(pkg)),
+                    call. = FALSE, domain = NA)
+    }
+}
+
+## called at C level in the startup process prior to .First.sys
+.OptRequireMethods <- function()
+{
+    pkg <- "methods" # done this way to avoid R CMD check warning
+    if(pkg %in% getOption("defaultPackages"))
+        if(!require(pkg, quietly = TRUE, warn.conflicts = FALSE,
+                    character.only = TRUE))
+            warning('package "methods" in options("defaultPackages") was not found',
+                    call. = FALSE)
+}
+
+if(nzchar(Sys.getenv("R_BATCH"))) {
+    .Last.sys <- function()
+    {
+        cat("> proc.time()\n")
+        print(proc.time())
+    }
+    ## avoid passing on to spawned R processes
+    ## A system has been reported without Sys.unsetenv, so try this
+    try(Sys.setenv(R_BATCH=""))
+}
+
+local({
+    if(nzchar(rv <- Sys.getenv("_R_RNG_VERSION_")))
+        suppressWarnings(RNGversion(rv))
+})
+###-*- R -*-
+
+## this will break if R is on a network share
+.Library <- file.path(chartr("\\", "/", R.home()), "library")
+.Library.site <- Sys.getenv("R_LIBS_SITE")
+.Library.site <- if(!nchar(.Library.site)) file.path(R.home(), "site-library") else unlist(strsplit(.Library.site, ";"))
+.Library.site <- .Library.site[file.exists(.Library.site)]
+
+if(!nzchar(Sys.getenv("R_LIBS_USER")))
+    Sys.setenv(R_LIBS_USER=
+               file.path(Sys.getenv("R_USER"), "R",
+                         "win-library",
+                         paste(R.version$major,
+                               sub("\\..*$", "", R.version$minor),
+                               sep=".")
+                         ))
+
+invisible(.libPaths(c(unlist(strsplit(Sys.getenv("R_LIBS"), ";")),
+                      unlist(strsplit(Sys.getenv("R_LIBS_USER"), ";"))
+                      )))
+
+local({
+    popath <- Sys.getenv("R_TRANSLATIONS", "")
+    if(!nzchar(popath)) {
+        paths <- file.path(.libPaths(), "translations", "DESCRIPTION")
+        popath <- dirname(paths[file.exists(paths)][1])
+    }
+    bindtextdomain("R", popath)
+    bindtextdomain("R-base", popath)
+    bindtextdomain("RGui", popath)
+    assign(".popath", popath, .BaseNamespaceEnv)
+})
+
+if(nzchar(Sys.getenv("R_PAPERSIZE"))) {
+    options(papersize = Sys.getenv("R_PAPERSIZE"))
+} else {
+    if(grepl("(canada|united.states)", Sys.getlocale("LC_MONETARY"),
+             ignore.case = TRUE)) options(papersize = "letter")
+    else options(papersize = "a4")
+}
+
+options(pager = if(length(grep("--ess", commandArgs()))) "console" else "internal",
+        useFancyQuotes = (.Platform$GUI == "Rgui"),
+        pdfviewer = Sys.getenv("R_PDFVIEWER", file.path(R.home("bin"), "open.exe")))
+
+if(.Platform$GUI == "Rgui")
+    Sys.setenv(GFORTRAN_STDOUT_UNIT = "-1", GFORTRAN_STDERR_UNIT = "-1")
+
+local({
+    br <- Sys.getenv("R_BROWSER", NA_character_)
+    if(!is.na(br)) options(browser = br)
+    tests_startup <- Sys.getenv("R_TESTS")
+    if(nzchar(tests_startup)) source(tests_startup)
+    ca_cert <- Sys.getenv("CURL_CA_BUNDLE", NA_character_)
+    if(!is.na(ca_cert) &&
+       file.exists(ca_path <- file.path(R.home("etc"), "curl-ca-bundle.crt")))
+        Sys.setenv(CURL_CA_BUNDLE = ca_path)
+})
+
+
+R Site Profile: D:/Program Files/R/R-3.6.3/etc/Rprofile.site
+--------------------------------------------------
+# Things you might want to change
+
+# options(papersize="a4")
+# options(editor="notepad")
+# options(pager="internal")
+
+# set the default help type
+# options(help_type="text")
+  options(help_type="html")
+
+# set a site library
+# .Library.site <- file.path(chartr("\\", "/", R.home()), "site-library")
+
+# set a CRAN mirror
+# local({r <- getOption("repos")
+#       r["CRAN"] <- "http://my.local.cran"
+#       options(repos=r)})
+
+# Give a fortune cookie, but only to interactive sessions
+# (This would need the fortunes package to be installed.)
+#  if (interactive()) 
+#    fortunes::fortune()
+
+
+
+R User Profile: C:/Users/rodie/OneDrive/Documentos/.Rprofile
+--------------------------------------------------
+(File does not exist)
+
+
+R Site Environ: D:/Program Files/R/R-3.6.3/etc/Renviron.site
+--------------------------------------------------
+(File does not exist)
+
+
+R User Environ: C:/Users/rodie/OneDrive/Documentos/.Renviron
+--------------------------------------------------
+PATH="${RTOOLS40_HOME}\usr\bin;${PATH}"
+PATH="${RTOOLS40_HOME}\usr\bin;${PATH}"
+
+
+R Temporary Directory
+--------------------------------------------------
+C:\Users\rodie\AppData\Local\Temp\Rtmpiqt2A9
+
+
+Files in R Temporary Directory
+--------------------------------------------------
+rs-graphics-da256f90-e415-4d54-ba31-cb0f4441f188
+
+
+Log file: C:/Users/rodie/AppData/Local/RStudio/log/rdesktop.log
+--------------------------------------------------
+
+2022-01-29T19:54:01.584694Z [rdesktop] ERROR file association for https://cran.rstudio.com/web/packages/recipes/news/news.html not available or invalid; LOGGED FROM: void __cdecl rstudio::desktop::openUrl(const class QUrl &) src/cpp/desktop/DesktopUtils.cpp:410
+
+
+Log file: C:/Users/rodie/AppData/Local/RStudio/log/rsession-rodie.log
+--------------------------------------------------
+
+2022-02-03T14:00:37.673150Z [rsession-rodie] ERROR system error 10053 (Uma conexão estabelecida foi anulada pelo software no computador host) [request-uri: /events/get_events]; OCCURRED AT void __cdecl rstudio::session::HttpConnectionImpl<class rstudio_boost::asio::ip::tcp>::sendResponse(const class rstudio::core::http::Response &) src/cpp/session/http/SessionWin32HttpConnectionListener.cpp:114; LOGGED FROM: void __cdecl rstudio::session::HttpConnectionImpl<class rstudio_boost::asio::ip::tcp>::sendResponse(const class rstudio::core::http::Response &) src/cpp/session/http/SessionWin32HttpConnectionListener.cpp:119
+2022-02-03T14:00:37.673150Z [rsession-rodie] ERROR system error 10053 (Uma conexão estabelecida foi anulada pelo software no computador host) [request-uri: /events/get_events]; OCCURRED AT void __cdecl rstudio::session::HttpConnectionImpl<class rstudio_boost::asio::ip::tcp>::sendResponse(const class rstudio::core::http::Response &) src/cpp/session/http/SessionWin32HttpConnectionListener.cpp:114; LOGGED FROM: void __cdecl rstudio::session::HttpConnectionImpl<class rstudio_boost::asio::ip::tcp>::sendResponse(const class rstudio::core::http::Response &) src/cpp/session/http/SessionWin32HttpConnectionListener.cpp:119
+2022-02-03T14:50:25.460258Z [rsession-rodie] WARNING Abort requested; LOGGED FROM: bool __cdecl rstudio::session::connection::checkForAbort(class rstudio_boost::shared_ptr<class rstudio::session::HttpConnection>,const class rstudio_boost::function<void __cdecl(void)>) src/cpp/session/http/SessionHttpConnectionUtils.cpp:135
+2022-02-03T14:50:25.460258Z [rsession-rodie] WARNING Abort requested; LOGGED FROM: bool __cdecl rstudio::session::connection::checkForAbort(class rstudio_boost::shared_ptr<class rstudio::session::HttpConnection>,const class rstudio_boost::function<void __cdecl(void)>) src/cpp/session/http/SessionHttpConnectionUtils.cpp:135
+2022-02-03T17:28:41.763997Z [rsession-rodie] ERROR system error 10053 (Uma conexão estabelecida foi anulada pelo software no computador host) [request-uri: /events/get_events]; OCCURRED AT void __cdecl rstudio::session::HttpConnectionImpl<class rstudio_boost::asio::ip::tcp>::sendResponse(const class rstudio::core::http::Response &) src/cpp/session/http/SessionWin32HttpConnectionListener.cpp:114; LOGGED FROM: void __cdecl rstudio::session::HttpConnectionImpl<class rstudio_boost::asio::ip::tcp>::sendResponse(const class rstudio::core::http::Response &) src/cpp/session/http/SessionWin32HttpConnectionListener.cpp:119
+2022-02-03T17:28:41.763997Z [rsession-rodie] ERROR system error 10053 (Uma conexão estabelecida foi anulada pelo software no computador host) [request-uri: /events/get_events]; OCCURRED AT void __cdecl rstudio::session::HttpConnectionImpl<class rstudio_boost::asio::ip::tcp>::sendResponse(const class rstudio::core::http::Response &) src/cpp/session/http/SessionWin32HttpConnectionListener.cpp:114; LOGGED FROM: void __cdecl rstudio::session::HttpConnectionImpl<class rstudio_boost::asio::ip::tcp>::sendResponse(const class rstudio::core::http::Response &) src/cpp/session/http/SessionWin32HttpConnectionListener.cpp:119
+2022-02-03T17:28:48.452101Z [rsession-rodie] WARNING Abort requested; LOGGED FROM: bool __cdecl rstudio::session::connection::checkForAbort(class rstudio_boost::shared_ptr<class rstudio::session::HttpConnection>,const class rstudio_boost::function<void __cdecl(void)>) src/cpp/session/http/SessionHttpConnectionUtils.cpp:135
+2022-02-03T17:28:48.452101Z [rsession-rodie] WARNING Abort requested; LOGGED FROM: bool __cdecl rstudio::session::connection::checkForAbort(class rstudio_boost::shared_ptr<class rstudio::session::HttpConnection>,const class rstudio_boost::function<void __cdecl(void)>) src/cpp/session/http/SessionHttpConnectionUtils.cpp:135
+
+
+User prefs: C:/Users/rodie/AppData/Roaming/RStudio/rstudio-prefs.json
+--------------------------------------------------
+
+{}
+
+System prefs: C:/ProgramData/RStudio/rstudio-prefs.json
+--------------------------------------------------
+
+(Not Found)
+
+User state: C:/Users/rodie/AppData/Local/RStudio/rstudio-desktop.json
+--------------------------------------------------
+
+{
+    "context_id": "C0776F5C",
+    "error_handler_type": "traceback"
+}
+
