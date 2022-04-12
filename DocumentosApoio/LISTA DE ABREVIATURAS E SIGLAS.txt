@@ -1,0 +1,61 @@
+﻿LISTA DE ABREVIATURAS E SIGLAS
+
+ACC: acurácia
+ANATEL: Agência Nacional de Telecomunicações (agência reguladora de telecomunicações no Brasil)
+AUC: Area Under the Curve
+AWS Amazon Web Service
+CBG Curso de Biblioteconomia e Gestão de Unidades de Informação
+CDR: call detail record
+CETIC: Centro Regional de Estudos para o Desenvolvimento da Sociedade da Informação 
+Companhia: Empresa de Telecomunicações brasileira
+CRM Customer Relationship Management
+CRM: customer relationship management
+CSV: comma-separated values
+DT: Decision Tree
+DVD Digital Versatile Disc
+ERP Enterprise Resource Planning
+EUA Estados Unidos da América
+GBM: Gradient Boosted Machine
+GPS Global Positioning System
+GSM: global system for mobile communications
+HDFS Hadoop Distributed File System
+HDFS: Hadoop Distributed File System
+HMR Hadoop MapReduce
+HTML HyperText Markup Language
+IBM: International Business Machines Corporation
+IBOPE Instituto Brasileiro de Opinião Pública e Estatística
+IDC International Data Corporation
+IMEI: International Mobile Equipment Identity
+ISACA Information Systems Audit and Control Association
+JSON: javascript object notation
+KPI: Key Performance Indicators
+LG: Lucky Goldstar
+LGPD
+LR: Logistic Regression
+LTV: Life Time Value (ciclo de vida do cliente)
+MIT: Massachussets Institute of Technology
+ML: Machine Learning
+IA: Inteligência Artificial 
+MMS: multimedia messaging service
+NO SQL: Not Only Structured Query Language
+NSW SES: New South Wales State Emergency Service
+OLAP: OnLine Analytical Processing
+PCA: Principal component analysis
+PNL Processamento de Linguagem Natural
+PWBI: Power BI
+RAM: Random access memory
+RCL: Ramco Cements Limited
+RF: Random Forest
+ROC: receiver operating characteristic
+ROI: return on investment
+SMS: short message service 
+SNA: Social Network Analysis
+SVG Scalable Vector Graphics
+TELCO: Telcomunication Company
+TELCO PLAYER: Empresa de telecomunicação participante do mercado
+TI: Tecnologia da Informação
+TIC: Tecnologia da Informação e Comunicação
+UFRJ: Universidade Federal do Rio de Janeiro
+VOIP: Voice over IP (tecnologia que permite transmissão de voz pela Internet)
+XGBoost: Extreme Gradient Boosting
+XML: extensible markup language 

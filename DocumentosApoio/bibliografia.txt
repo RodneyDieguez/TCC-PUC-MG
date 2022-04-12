@@ -1,0 +1,114 @@
+﻿A grande motivação para este problema é a possibilidade de com a deteção antecipada do evento de churn, possibilitar à empresa tomar ações de retenção direcionada aos clientes mais propensos a fazerem churn de acordo com o modelo construído. A eficácia dessas campanhas de retenção estará também dependente da antecipação com que se consiga identificar os clientes porque quando forem abordados pela empresa, a decisão de abandonarem o serviço pode já ser irrevogável. 
+
+
+São vários os trabalhos, como RADOSAVLJEVIK, PUTTEN, & LARSEN (2010), que abordam este tema.
+
+
+
+As empresas se veem hoje em um ambiente cada vez mais competitivo, no qual o 
+avanço da globalização e da tecnologia aumentou a concorrência e os custos 
+associados à atração de novos clientes (CASTELLS, 1999). Em mercados 
+competitivos uma das estratégias possíveis é a estratégia de marketing defensivo. 
+Nessa estratégia, ao invés de buscar novos clientes ou obter clientes dos 
+concorrentes, busca-se reduzir a saída de clientes como forma de melhorar o 
+resultado financeiro da empresa (FORNELL; WERNERFELT, 1987). 
+RUST, ZAHORI (1992) demonstraram que a longevidade de 
+relacionamento com os clientes influencia favoravelmente a lucratividade. Clientes 
+já existentes tendem a gerar mais fluxo de caixa e lucro, uma vez que eles são 
+menos sensíveis a preços. Clientes que estão há mais tempo com a empresa 
+tendem a comprar mais e divulgar melhor a empresa (RUST; ZAHORIK; FORNELL; WERNERFELT, 1987, 1988). Também suportando 
+esta posição, REICHHELD E SASSER (1990) afirmam que a perda de clientes é mais 
+relevante que o custo unitário no resultado financeiro da empresa. 
+
+
+
+Em muitos setores, o custo de aquisição de novos clientes pode ser cinco vezes superior ao seu custo de retenção (KURTZ e CLOW, 1998)
+
+#---
+
+BOLTON, R. N. A dynamic model of the duration of the customer's relationship with a continuous service provider: the role of satisfaction. 
+Marketing Science, v. 17, n. 1, 1998.
+
+
+CASTELLS, M. A sociedade em rede – a era da informação: economia, sociedade e cultura. v. 1.  3º ed. São Paulo: Paz e terra, 1999.  
+
+
+FORNELL, C.; WERNERFELT B. Defensive marketing strategy by customer complaint management: a theoretical analysis. Journal of Marketing Research, v. 24, 1987.    
+
+
+KOTLER, P. Administração de marketing: análise, planejamento, administração e controle. São Paulo: Ed. Atlas, 5a edição, 1998.
+
+
+KURTZ, D. L; CLOW, K. E. Services marketing. New York: John Wiley & Sons, 1998.
+
+
+MAYER-SCHONBERGER, V., & CUKIER, K. Big data: como extrair volume, variedade, velocidade e valor da avalanche de informação cotidiana (Vol. 1). 
+Elsevier Brasil, São Paulo, 2013. 
+
+
+RADOSAVLJEVIK, D., PUTTEN, P. VAN DER, & LARSEN, K.The Impact of Experimental Setup in Prepaid Churn Prediction for Mobile Telecommunications: What to Predict, for Whom and Does the Customer Experience. 2010 
+
+REICHHELD, F.F. The loyalty effect: the hidden force behind growth, profits, and lasting value. Harvard Business School Press, Boston, MA, 1996.
+   
+
+REICHHELD, F. F.; SASSER, W. E. Zero defections: Quality comes to services. 
+Harvard Business Review, Boston, MA, Sep–Oct, 1990.
+
+ZAHORIK, A.J.; RUST, R. T. Modeling the impact of service quality on profitability: a review. In: BOWEN, SWARTZ, T. Advances in Services, Marketing and Management, v. 1, 1992.
+
+https://github.com/RodneyDieguez/TCC-PUC-MG/tree/main/DocumentosApoio
+
+----------------------------
+ARQUIVOS DE CONSULTA
+---------------------------- 
+Anais do IV SINGEP – São Paulo – SP – Brasil – 08, 09 e 10/11/2015
+O BIG DATA E SEU USO CORPORATIVO: UMA REVISÃO DE LITERATURA
+https://singep.org.br/4singep/resultado/245.pdf
+
+ 
+https://cetic.br/
+	https://cetic.br/pt/arquivos/domicilios/2020/individuos/
+	https://cetic.br/pt/arquivos/domicilios/2020/domicilios/
+	https://cetic.br/media/docs/publicacoes/2/20210426095323/painel_tic_covid19_livro_eletronico.pdf
+
+https://www.telebrasil.org.br/paineis
+	https://www.telebrasil.org.br/64-painel-telebrasil-2020
+
+https://itc.com.br/telecomunicacao-no-brasil/
+	https://itc.com.br/atendimento-omnichannel/
+	https://itc.com.br/mercado-de-telecomunicacoes/
+	https://itc.com.br/experiencia-do-cliente/
+
+
+**13 - TECNOLOGIAS PARA O ECOSISTEMA DE BIG DATA** 94
+
+Prover o desenvolvimento de habilidades para criar, gerenciar, manter e aprimorar uma arquitetura de Big Data e suas as principais tecnologias.
+
+**14 - INTRODUÇÃO ÀS LINGUAGENS ESTATÍSTICAS** 89,00
+
+Desenvolver o ferramental básico necessário para manipulação, limpeza e análise de dados através da linguagem de programação Python.
+
+**15 - TÉCNICAS ESTATÍSTICAS DE PREDIÇÃO: TEORIA E APLICAÇÕES** 88
+
+Aplicação das técnicas estatísticas no software R utilizando a IDE RStudio. Avaliar a adequacidade de modelos e usá-los para uma análise preditiva correta.
+
+**16 - ARQUITETURA E QUALIDADE DE DADOS** 100
+
+Versando sobre Arquitetura de dados, Qualidade e Governança de dados. Como implementar Governança de dados nas empresa, ética nos dados, IoT, maturidade em dados, no prisma dos dados normais(normal data) e Big Data. 
+
+
+100.00%
+100.00%
+100.00%
+100.00%
+100.00%
+100.00%
+99.00%
+94.00%
+94.00%
+93.60%
+89.00%
+88.00%
+88.00%
+80.00%
+74.00%
